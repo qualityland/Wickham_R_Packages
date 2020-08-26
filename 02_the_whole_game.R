@@ -43,4 +43,25 @@ devtools::document()
 # generates documentation in man/ folder.
 # also updates NAMESPACE with exported functions.
 
-### 
+### 2.13 check() again - [Ctrl + Shift + E]
+devtools::check()
+
+### 2.14 install() - [Ctrl + Shift + B]
+devtools::install()
+
+### 2.15 use_testthat()
+usethis::use_testthat()
+
+### 2.15.1 use_test()
+usethis::use_test("fbind")
+# edit test
+
+### 2.15.2 library(testthat)
+
+### 2.15.3 load_all() - [Ctrl + Shift + L]
+
+### 2.15.4 test() - [Ctrl + Shift + T]
+devtools::test()
+
+### 2.16 use_package() - declare what other packages your package imports
+usethis::use_package("forcats")
